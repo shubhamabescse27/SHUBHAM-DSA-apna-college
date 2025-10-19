@@ -2,12 +2,14 @@
 using namespace std;
 
 int main() { 
-int n = -45;
+int age;
+cout <<"inter the age :";
+cin >> age;
 
-if(n>=0) {
-    cout << "n is positive\n";
+if(age >= 18) {
+    cout <<"you can vote\n";
 } else {
-    cout <<"n is negative \n";
+    cout << "you can not vote\n";
 }
 
 return 0;
