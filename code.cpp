@@ -2,17 +2,13 @@
 using namespace std;
 
 int main() { 
-int marks;
-cout <<"enter marks :";
-cin >> marks;
-
-if(marks >= 90) {
-    cout <<"A\n";
-
-} else if(marks >=80 && marks < 90){
-    cout <<"B\n";
+char ch;
+cout << "enter char : ";
+cin >> ch;
+if(ch >= 'a' && ch <= 'z'){
+    cout << "lowercase\n";
 } else {
-    cout <<"C\n";
+    cout << "uppercase\n";
 }
 
 return 0;
