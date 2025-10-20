@@ -2,8 +2,14 @@
 using namespace std;
 
 int main() { 
-    int n = 45;
-    cout << (n >= 0 ? "positive" : "negative") << endl;
+    int count =1;
+     while(count <= 10) {
+        cout << count << " ";
+        count++;
+     }
+
+     cout << endl;
+     
 
 return 0;
 }
