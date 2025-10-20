@@ -2,16 +2,18 @@
 using namespace std;
 
 int main() { 
-int n;
-cout <<"enter the number : ";
-cin >> n;
-if(n%2 == 0){
-    cout <<"n is even\n";
-}
+int marks;
+cout <<"enter marks :";
+cin >> marks;
 
-    else{
-        cout <<"n is odd\n";
-    }
+if(marks >= 90) {
+    cout <<"A\n";
+
+} else if(marks >=80 && marks < 90){
+    cout <<"B\n";
+} else {
+    cout <<"C\n";
+}
 
 return 0;
 }
