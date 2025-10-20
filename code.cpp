@@ -2,8 +2,9 @@
 using namespace std;
 
 int main() { 
+    int n = 5000;
     int count =1;
-     while(count <= 10) {
+     while(count <= n) {
         cout << count << " ";
         count++;
      }
