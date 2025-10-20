@@ -2,14 +2,8 @@
 using namespace std;
 
 int main() { 
-char ch;
-cout << "enter char : ";
-cin >> ch;
-if(ch >= 65 && ch <= 90){
-    cout << "uppercace\n";
-} else {
-    cout << "lowercase\n";
-}
+    int n = 45;
+    cout << (n >= 0 ? "positive" : "negative") << endl;
 
 return 0;
 }
