@@ -5,10 +5,10 @@ int main() {
 char ch;
 cout << "enter char : ";
 cin >> ch;
-if(ch >= 'a' && ch <= 'z'){
-    cout << "lowercase\n";
+if(ch >= 65 && ch <= 90){
+    cout << "uppercace\n";
 } else {
-    cout << "uppercase\n";
+    cout << "lowercase\n";
 }
 
 return 0;
