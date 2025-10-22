@@ -2,11 +2,11 @@
 using namespace std;
 
 int main() { 
-    int n = 5000;
-    int count =1;
-     while(count <= n) {
-        cout << count << " ";
-        count++;
+    int n = 50;
+    int i =1;
+     while(i <= n) {
+        cout << i << " ";
+        i++;
      }
 
      cout << endl;
