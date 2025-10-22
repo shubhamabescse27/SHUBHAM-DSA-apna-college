@@ -2,13 +2,16 @@
 using namespace std;
 
 int main() {
-   int n = 5;
-   // print odd numbers
+   int n = 50;
+   int oddsum = 0;
+
    for(int i=1; i<=n; i++){
       if(i%2 != 0){
-      cout << i << " ";
+      oddsum += i;
+
       }
    }
-  cout << endl; 
+  cout << "odd sum = " << oddsum << endl;
+
 return 0;
 }
