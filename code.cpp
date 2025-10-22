@@ -2,16 +2,16 @@
 using namespace std;
 
 int main() {
-   int n = 50;
-   int oddsum = 0;
+   int n = 10;
+   int i = 1;
 
-   for(int i=1; i<=n; i++){
-      if(i%2 != 0){
-      oddsum += i;
+   do {
+      cout << i << " ";
+      i++;
 
-      }
-   }
-  cout << "odd sum = " << oddsum << endl;
+   } while(i <= n);
+   cout << endl;
+   return 0;
 
-return 0;
+
 }
