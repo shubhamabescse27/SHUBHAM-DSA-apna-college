@@ -2,13 +2,15 @@
 using namespace std;
 
 int main() { 
-  int n= 10;
-  
-  for(int i=1; i<=n; i=i+2) {
-   cout << i << " ";
+  int n= 50;
+  int sum = 0;
+
+  for(int i=1; i<=n; i++) {
+   sum += i;
 
 
   }
-cout << endl;
+cout << "sum = " << sum << endl;
+
 return 0;
 }
