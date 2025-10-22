@@ -2,15 +2,13 @@
 using namespace std;
 
 int main() { 
-    int n = 50;
-    int i =1;
-     while(i <= n) {
-        cout << i << " ";
-        i++;
-     }
+  int n= 10;
+  
+  for(int i=1; i<=n; i++) {
+   cout << i << " ";
 
-     cout << endl;
-     
 
+  }
+cout << endl;
 return 0;
 }
